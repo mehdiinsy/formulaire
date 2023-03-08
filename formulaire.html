@@ -1,0 +1,34 @@
+<HTML>
+	<HEAD>
+		<TITLE>Mon exemple de site</TITLE>
+	</HEAD>
+	<BODY>
+		<CENTER><H1>Mon exemple de site</H1></CENTER>
+		<CENTER><B><I><U>Ceci est un site d'exemple</U></I></B></CENTER>
+		
+		Cette page sert d'exemple au site <A HREF="http://www.chdb.eu" target="_new">CHDB</A><BR>
+		Debut de contenu du site<BR>
+		La suite du contenu<BR>
+		<BR>
+		<form action="traitement.php" method="post">
+			<TABLE>
+				<TR>
+					<TD>Civilité</TD>
+					<TD>
+						<SELECT NAME="Civilite" ID="Civilite">
+							<OPTION Value="" Selected></OPTION>
+							<OPTION Value="Monsieur">Monsieur</OPTION>
+							<OPTION Value="Madame">Madame</OPTION>
+							<OPTION Value="Mademoiselle">Mademoiselle</OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+				<TR><TD>Nom</TD><TD><INPUT Type="Text" NAME="Nom" ID="Nom"></INPUT></TD></TR>
+				<TR><TD>Prenom</TD><TD><INPUT Type="Text" NAME="Prenom" ID="Prenom"></INPUT></TD></TR>
+				<TR><TD>Adresse</TD><TD><INPUT Type="Text" NAME="Adresse" ID="Adresse"></INPUT></TD></TR>
+				<TR><TD>Remarque(s)</TD><TD><textarea NAME="Remarques" ID="Remarques" cols="90" rows="5"></textarea></TD></TR>
+			</TABLE>
+			<input type="submit" value="Envoyer" />
+		</form>
+	</BODY>
+</HTML>

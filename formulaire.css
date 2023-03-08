@@ -1,0 +1,32 @@
+form{
+    margin: 0 auto;
+    font-size: 20px;
+    color:rgb(247, 161, 1);
+
+}
+#bulle{
+    background-color: beige;
+    border: solid; 
+    border-color: black;
+    color: blue;
+}
+input{
+    background-color: rgb(221, 221, 221);
+    border: solid;
+    
+    
+}
+.container{
+    background-color: aqua;
+    border: solid;
+    width: 1440px;
+    height: 1200px;
+    margin: 0 auto;
+}
+#nom{
+    background-color: white;
+    border: none;
+}
+.lab{
+    width: 200px;
+}
